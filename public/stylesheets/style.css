@@ -1,8 +1,80 @@
 body {
-  padding: 50px;
-  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: gray;
 }
 
 a {
   color: #00b7ff;
+}
+
+.main {
+  background-color: white;
+  padding: 20px;
+}
+
+.title {
+  color: gray;
+}
+
+.alldrones {
+  display: flex;
+  flex-direction: row;
+  border-color: black;
+  border-width: 1px;
+}
+
+.card {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+}
+
+#delete-btn {
+  margin-right: 10px;
+}
+
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+  background-color: black;
+}
+
+.logo {
+  color: white;
+}
+
+.create-form {
+  border: 1px solid lightgray;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.textfield-div {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-create {
+  color: gray;
+  padding: 25px;
 }

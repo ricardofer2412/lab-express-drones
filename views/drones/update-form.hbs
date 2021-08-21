@@ -1,1 +1,42 @@
+<div class='title-create'>
+
+
 <h2>Update the drone</h2>
+
+</div>
+
+<div class="create-form">
+    <div class='create-card'>
+
+<form action="/drones/{{_id}}/edit" method="post">
+<div class='form'>
+    <div class='textfield-div'>
+<label>Name:
+</label>
+<input type="text" name="name" value='{{name}}'>
+</div>
+    <div class='textfield-div'>
+<label>
+    Propellers:
+</label>
+<input type="number" name="propellers" value='{{propellers}}'>
+</div>
+<div class='textfield-div'>
+<label>
+    Max Speed:
+
+</label>
+<input type="number" name="maxSpeed" value='{{maxSpeed}}'>
+</div>
+<div class='textfield-div'>
+
+<button type='submit' class="btn btn-success">Save</button>
+
+</div>
+<div class='textfield-div'>
+
+    <button class="btn btn-warning"><a href="/drones">Back</a></button>
+
+</div>
+
+</form>
